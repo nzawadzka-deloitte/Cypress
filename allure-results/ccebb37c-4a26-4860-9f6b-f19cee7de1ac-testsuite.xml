@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659605914767' stop='1659605958266'>
+    <name>e-shop go to Logging in</name>
+    <title>e-shop go to Logging in</title>
+    <test-cases>
+        <test-case start='1659605914839' status='broken' stop='1659605957849'>
+            <name>should Log in</name>
+            <title>should Log in</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.type()` can only accept a string or number. You passed in: `undefined`
+                
+                https://on.cypress.io/type</message>
+                <stack-trace>CypressError: `cy.type()` can only accept a string or number. You passed in: `undefined`
+                
+                https://on.cypress.io/type
+                    at Context.type (http://automationpractice.com/__cypress/runner/cypress_runner.js:152187:76)
+                    at Context.&lt;anonymous> (http://automationpractice.com/__cypress/runner/cypress_runner.js:171965:19)
+                From Your Spec Code:
+                    at Function.inputAccount (http://automationpractice.com/__cypress/tests?p=cypress\e2e\automation_practice\automation_practice.cy.js:205:27)
+                    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\e2e\automation_practice\automation_practice.cy.js:161:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

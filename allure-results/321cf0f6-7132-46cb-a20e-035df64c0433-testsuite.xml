@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659605958288' stop='1659605976222'>
+    <name>e-shop go to menu bar</name>
+    <title>e-shop go to menu bar</title>
+    <test-cases>
+        <test-case start='1659605958373' status='passed' stop='1659605968735'>
+            <name>should open category: Women</name>
+            <title>should open category: Women</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659605968828' status='passed' stop='1659605976095'>
+            <name>should open cart page</name>
+            <title>should open cart page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659605976221' status='pending' stop='1659605976221'>
+            <name>log in, </name>
+            <title>log in, </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659605976222' status='undefined'>
+            <name>log in, </name>
+            <title>log in, </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
