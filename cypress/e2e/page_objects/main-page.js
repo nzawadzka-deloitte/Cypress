@@ -17,4 +17,6 @@ export class MainPage {
     static clickSignButton(){
         cy.get(".login").contains("Sign in").click();
     }
+    
+
 }
