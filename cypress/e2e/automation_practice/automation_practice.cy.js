@@ -11,6 +11,11 @@ context('e-shop go to', () => {
     MainPage.openAutomationPracticePage();
   })
   describe('Logging in', () => {
+    before(function() {
+      cy.fixture('data.json').then(function(loginData){
+        this.loginData = loginData 
+      })
+    })
 
     it('should Log in', () => {
       MainPage.clickSignButton();
