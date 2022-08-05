@@ -8,4 +8,5 @@ export class WomenPage{
         cy.get('#center_column > h1').contains('Women');
     }
     
+   
 }
