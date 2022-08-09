@@ -18,13 +18,12 @@ export class MainPage {
         cy.get(".login").contains("Sign in").click();
     }
     
-    static clickAddProduct(index){
-        let price = Cypress.$('product_list > :nth-child(${index}).price');
-        cy.get('[data-index-product=${id}]').contains("Add to cart").click();
+    static clickAddProduct(name){
+        cy.get(".produkt_list").find(".product-container").contains(name).parent('.product-container').contains('Add to cart').click();
+    
     }
 
     static clickContinueShopping(){
-
-        
+        cy.get('button-medium').contains("Proceed").click();
     }
 }

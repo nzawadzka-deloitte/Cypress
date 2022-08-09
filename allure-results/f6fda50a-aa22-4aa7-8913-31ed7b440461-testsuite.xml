@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660028643760' stop='1660028675318'>
+    <name>e-shop go to Logging in</name>
+    <title>e-shop go to Logging in</title>
+    <test-cases>
+        <test-case start='1660028643773' status='passed' stop='1660028675276'>
+            <name>should Log in</name>
+            <title>should Log in</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

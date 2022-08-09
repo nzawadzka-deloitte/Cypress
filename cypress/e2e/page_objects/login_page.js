@@ -4,21 +4,26 @@ export class LoginPage {
 
         cy.visit("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
-    static inputAccount() {
-        cy.fixture('data.json').then(loginData =>{
-
-            cy.get('#email').type(loginData.email);
-            cy.get('#passwd').type(loginData.password);
+    static enterEmail(){
+        cy.fixture('data.json').then(loginData=>{
+             cy.get('#email').type(loginData.email)
         })
+       
+    }
+    static enterPassword(){
+        cy.fixture('data.json').then(loginData=>{
+             cy.get('#passwd').type(loginData.password)
+        })
+       
     }
 
     static clickLogInButton(){
         cy.get('#SubmitLogin').click();
     }
-    static checkIfMyAccountIsOpen(){
+    static checkIfMyAccountIsOpen(name){
 
-        cy.get('.page-heading').contains("My account");
+        cy.get('.myaccount-link-list').contains(name).click();
 
     }
-    static clickProduct
+
 }
